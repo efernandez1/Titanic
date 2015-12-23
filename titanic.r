@@ -1,8 +1,5 @@
-setwd("~/Desktop/Titanic Analysis")
-.libPaths("~/Desktop/R_Packages/")
-
 library("caret")
-
+## set working directory to contain files below
 train <- read.csv("train.csv", header = TRUE) # Read in Titanic train set from Kaggle
 test <- read.csv("test.csv", header = TRUE) # Read in Titanic test set from Kaggle
 
